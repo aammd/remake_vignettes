@@ -1,0 +1,18 @@
+{
+    "contents" : "mn <- function(n) n",
+    "created" : 1441822281080.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2621698572",
+    "id" : "CA007612",
+    "lastKnownWriteTime" : 1441822298,
+    "path" : "~/Documents/projects/remake_vig/rs.R",
+    "project_path" : "rs.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

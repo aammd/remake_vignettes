@@ -1,0 +1,18 @@
+{
+    "contents" : "sources:\n  - rs.R\n\ntargets:\n  all:\n    depends:\n      - vig/foobarone.md\n      - vig/foobarseven.md\n    \n  one:\n    command: mn(1)\n    \n  seven: \n    command: mn(7)\n  \n  vig/foobarone.md:\n    knitr:\n      input: vig/foobar.Rmd\n      chdir: true\n      auto_figure_prefix: true\n    depends:\n      - num: one\n      \n  vig/foobarseven.md:\n    knitr:\n      input: vig/foobar.Rmd\n      chdir: true\n      auto_figure_prefix: true\n    depends:\n      - num: seven\n",
+    "created" : 1441821586155.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "542217322",
+    "id" : "E4885002",
+    "lastKnownWriteTime" : 1441822332,
+    "path" : "~/Documents/projects/remake_vig/remake.yml",
+    "project_path" : "remake.yml",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "yaml"
+}

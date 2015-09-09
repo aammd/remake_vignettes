@@ -1,0 +1,30 @@
+sources:
+  - rs.R
+
+targets:
+  all:
+    depends:
+      - vig/foobarone.md
+      - vig/foobarseven.md
+    
+  one:
+    command: mn(1)
+    
+  seven: 
+    command: mn(7)
+  
+  vig/foobarone.md:
+    knitr:
+      input: vig/foobar.Rmd
+      chdir: true
+      auto_figure_prefix: true
+    depends:
+      - num: one
+      
+  vig/foobarseven.md:
+    knitr:
+      input: vig/foobar.Rmd
+      chdir: true
+      auto_figure_prefix: true
+    depends:
+      - num: seven

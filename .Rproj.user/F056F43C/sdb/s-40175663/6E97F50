@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"foobar\"\nauthor: \"Andrew MacDonald\"\ndate: \"September 9, 2015\"\noutput: html_document\n---\n\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.\n\nWhen you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\n\n```r\nsummary(cars)\n```\n\n```\n##      speed           dist       \n##  Min.   : 4.0   Min.   :  2.00  \n##  1st Qu.:12.0   1st Qu.: 26.00  \n##  Median :15.0   Median : 36.00  \n##  Mean   :15.4   Mean   : 42.98  \n##  3rd Qu.:19.0   3rd Qu.: 56.00  \n##  Max.   :25.0   Max.   :120.00\n```\n\nYou can also embed plots, for example:\n\n![plot of chunk unnamed-chunk-2](figure/foobarseven__unnamed-chunk-2-1.png) \n\nNote that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.\n\nmy favourite number is 7\n",
+    "created" : 1441822343048.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "129037078",
+    "id" : "6E97F50",
+    "lastKnownWriteTime" : 1441822334,
+    "path" : "~/Documents/projects/remake_vig/vig/foobarseven.md",
+    "project_path" : "vig/foobarseven.md",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
